@@ -1,10 +1,10 @@
-# PCA and Autoencoder implementation for image denoinsing, image reconstruction, and image segmentation
+# PCA and Autoencoder implementation for image denoising, image reconstruction, and image segmentation
 
 ## `NB1.ipynb`
-This notebook contains work done mostly on CIFAR-10 and MNIST dataset. 
+This notebook contains work done mostly on CIFAR-10 and MNIST dataset.
 
 ### Part-1
-This part is just a *CNN-based image classification* on CIFAR-10 dataset. The CNN architecutre contains the residual blocks with 47,650 of total parameters ran on 20 epochs and gave the accuracy of 74%. The CNN architecture is as follows:
+This part is just a *CNN-based image classification* on CIFAR-10 dataset. The CNN architecture contains the residual blocks with 47,650 of total parameters ran on 20 epochs and gave the accuracy of 74%. The CNN architecture is as follows:
 
 <center>![cnn_arch](https://github.com/MohtashimButt/PCA-and-Autoencoder/blob/master/Assets/architecture_CNN.png)</center>
 
@@ -19,6 +19,8 @@ The training and testing loss curves are given as follows:
 <center>![cnn_arch](https://github.com/MohtashimButt/PCA-and-Autoencoder/blob/master/Assets/PCA_out.png)</center>
 
 The image reconstruction and image denoising results are given as follows:
+<center>
 | Image Reconstruction | Image Denoising |
 | -------------------- | --------------- |
 | ![Image Reconstruction](https://github.com/MohtashimButt/PCA-and-Autoencoder/blob/master/Assets/PCA_recon.png) | ![Image Denoising](https://github.com/MohtashimButt/PCA-and-Autoencoder/blob/master/Assets/PCA_denoise.png) |
+</center>
